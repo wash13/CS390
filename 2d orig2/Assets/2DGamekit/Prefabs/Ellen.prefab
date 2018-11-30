@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 114680495344679792}
   - component: {fileID: 114428459208228128}
   - component: {fileID: 114621962236214084}
+  - component: {fileID: 114373235800580744}
   m_Layer: 13
   m_Name: Ellen
   m_TagString: Untagged
@@ -1140,6 +1141,18 @@ MonoBehaviour:
     - {fileID: 8300000, guid: e281a04ebe0d51140b84708ae79a756c, type: 3}
   randomizePitch: 1
   pitchRange: 0.3
+--- !u!114 &114373235800580744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125256590603436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ad1bcfa0311b7458795c564d840cce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  afterimage: {fileID: 0}
 --- !u!114 &114428459208228128
 MonoBehaviour:
   m_ObjectHideFlags: 1
