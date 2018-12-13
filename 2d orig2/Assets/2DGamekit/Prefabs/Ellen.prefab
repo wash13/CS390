@@ -49,9 +49,10 @@ GameObject:
   - component: {fileID: 114428459208228128}
   - component: {fileID: 114621962236214084}
   - component: {fileID: 114373235800580744}
+  - component: {fileID: 114950387161114856}
   m_Layer: 13
   m_Name: Ellen
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1635,6 +1636,18 @@ MonoBehaviour:
   maxVerticalDeltaDampTime: 0.6
   verticalCameraOffsetDelay: 1
   spriteOriginallyFacesLeft: 0
+--- !u!114 &114950387161114856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125256590603436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a269547b4affe974396d4bb522460787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hook: {fileID: 1638242601371936, guid: f0ed05a4182c1ce428013862103e0fbb, type: 2}
 --- !u!212 &212235282725819588
 SpriteRenderer:
   m_ObjectHideFlags: 1
