@@ -48,6 +48,7 @@ public class sendGrapple : MonoBehaviour {
                 currentTime = Time.time;
                 Destroy(curhook);
                 pc.gravity = prevgrav;
+                cc.setGrounded(false);
             }
         }
 	}
