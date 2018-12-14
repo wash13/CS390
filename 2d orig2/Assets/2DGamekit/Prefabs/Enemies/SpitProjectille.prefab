@@ -9,39 +9,22 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1490519385033960}
+  m_RootGameObject: {fileID: 1029138615825652}
   m_IsPrefabAsset: 1
---- !u!1 &1076161279177230
+--- !u!1 &1029138615825652
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4185065303903640}
-  - component: {fileID: 198145912326319046}
-  - component: {fileID: 199916225169209064}
-  m_Layer: 0
-  m_Name: SpitGoop
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1490519385033960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4412709334936118}
-  - component: {fileID: 58743861144944240}
-  - component: {fileID: 50229717355620182}
-  - component: {fileID: 114703619234346038}
-  - component: {fileID: 114793620227127496}
-  - component: {fileID: 212479798347525714}
-  - component: {fileID: 114442081226539470}
+  - component: {fileID: 4029230198438820}
+  - component: {fileID: 58388962587763038}
+  - component: {fileID: 50891737584525498}
+  - component: {fileID: 114072024484403304}
+  - component: {fileID: 114350231458856460}
+  - component: {fileID: 212318139917194140}
+  - component: {fileID: 114731749165319568}
   m_Layer: 0
   m_Name: SpitProjectille
   m_TagString: Untagged
@@ -49,40 +32,57 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4185065303903640
+--- !u!1 &1644132659062520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4447930399067960}
+  - component: {fileID: 198958295822715380}
+  - component: {fileID: 199705640126401040}
+  m_Layer: 0
+  m_Name: SpitGoop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4029230198438820
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076161279177230}
+  m_GameObject: {fileID: 1029138615825652}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0545, y: 0.7818, z: 0}
+  m_LocalScale: {x: -1.4641305, y: 1.3726261, z: 1}
+  m_Children:
+  - {fileID: 4447930399067960}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4447930399067960
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644132659062520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4412709334936118}
+  m_Father: {fileID: 4029230198438820}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4412709334936118
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4185065303903640}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50229717355620182
+--- !u!50 &50891737584525498
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
+  m_GameObject: {fileID: 1029138615825652}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -96,12 +96,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &58743861144944240
+--- !u!58 &58388962587763038
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
+  m_GameObject: {fileID: 1029138615825652}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -111,25 +111,12 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.15
---- !u!114 &114442081226539470
+--- !u!114 &114072024484403304
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a5e192a35bc4444facdaa83aa946e1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 088f6c36a29f5de4bbe5ed8ca5e18186, type: 2}
-  queueOverrideValue: 3000
---- !u!114 &114703619234346038
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
+  m_GameObject: {fileID: 1029138615825652}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1506f7b67235554cb42519c257da979, type: 3}
@@ -139,7 +126,7 @@ MonoBehaviour:
   offset: {x: -0.008388042, y: -0.008157134}
   size: {x: 0.4990778, y: 0.5074656}
   offsetBasedOnSpriteFacing: 1
-  spriteRenderer: {fileID: 212479798347525714}
+  spriteRenderer: {fileID: 212318139917194140}
   canHitTriggers: 0
   disableDamageAfterHit: 0
   forceRespawn: 0
@@ -150,7 +137,7 @@ MonoBehaviour:
   OnDamageableHit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114793620227127496}
+      - m_Target: {fileID: 114350231458856460}
         m_MethodName: ReturnToPool
         m_Mode: 1
         m_Arguments:
@@ -168,12 +155,12 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Gamekit2D.Damager+NonDamagableEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114793620227127496
+--- !u!114 &114350231458856460
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
+  m_GameObject: {fileID: 1029138615825652}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 20f916c2dfd5f3b47bc8cf6ae8d8452e, type: 3}
@@ -183,12 +170,25 @@ MonoBehaviour:
   spriteOriginallyFacesLeft: 0
   timeBeforeAutodestruct: 0.005
   mainCamera: {fileID: 0}
---- !u!198 &198145912326319046
+--- !u!114 &114731749165319568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1029138615825652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a5e192a35bc4444facdaa83aa946e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 088f6c36a29f5de4bbe5ed8ca5e18186, type: 2}
+  queueOverrideValue: 3000
+--- !u!198 &198958295822715380
 ParticleSystem:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076161279177230}
+  m_GameObject: {fileID: 1644132659062520}
   serializedVersion: 5
   lengthInSec: 2
   simulationSpeed: 1
@@ -4716,13 +4716,13 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &199916225169209064
+--- !u!199 &199705640126401040
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1076161279177230}
+  m_GameObject: {fileID: 1644132659062520}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -4773,12 +4773,12 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!212 &212479798347525714
+--- !u!212 &212318139917194140
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490519385033960}
+  m_GameObject: {fileID: 1029138615825652}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
